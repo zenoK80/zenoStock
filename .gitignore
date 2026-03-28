@@ -1,0 +1,12 @@
+# DB 설정
+config/database.php
+
+# 로컬 이미지
+public/img/stock/
+
+# 업로드 파일
+storage/uploads/
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
