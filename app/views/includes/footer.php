@@ -36,8 +36,9 @@
       <h5>소셜</h5>
       <ul class="nav flex-column">
         <li class="nav-item mb-2"><a href="https://github.com/zenoK80" class="nav-link p-0 text-body-secondary">깃허브</a></li>
-        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">준비중</a></li>
-        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">이메일</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">포트폴리오</a></li>
+        <li class="nav-item mb-2"><a href="https://zeno-document.vercel.app/" class="nav-link p-0 text-body-secondary">문서</a></li>
+        <li class="nav-item mb-2"><a href="https://zenok.tistory.com/" class="nav-link p-0 text-body-secondary">블로그</a></li>
       </ul>
     </div>
   </footer>
