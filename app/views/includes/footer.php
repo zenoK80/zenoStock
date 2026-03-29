@@ -7,7 +7,6 @@
       </a>
       <p class="text-body-secondary small">&copy; 2026 zenoStock</p>
     </div>
-    <div class="col mb-3"></div>
     <div class="col mb-3">
       <h5>서비스</h5>
       <ul class="nav flex-column">
@@ -34,11 +33,11 @@
       </ul>
     </div>
     <div class="col mb-3">
-      <h5>??</h5>
+      <h5>소셜</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">깃허브</a></li>
-        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">..</a></li>
-        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">..</a></li>
+        <li class="nav-item mb-2"><a href="https://github.com/zenoK80" class="nav-link p-0 text-body-secondary">깃허브</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">준비중</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">이메일</a></li>
       </ul>
     </div>
   </footer>
