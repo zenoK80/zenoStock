@@ -10,3 +10,6 @@ storage/uploads/
 # 시스템 파일
 .DS_Store
 Thumbs.db
+
+# 정리
+z_md

@@ -1,0 +1,33 @@
+# -----------------------------------------------
+
+# .htaccess
+
+# Apache URL 재작성 설정
+
+# 모든 요청을 index.php 로 보내는 프론트 컨트롤러 패턴
+
+# -----------------------------------------------
+
+# URL 재작성 모듈 활성화
+
+RewriteEngine On
+
+# 실제 파일 요청은 그대로 처리 (css, js, img 등)
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# 실제 폴더 요청은 그대로 처리
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# 나머지 모든 요청 → index.php 로 전달
+
+# 예) /image → index.php?url=image
+
+# 예) /icon → index.php?url=icon
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+# QSA = Query String Append (기존 쿼리스트링 유지)
+
+# L = Last (이 규칙이 마지막)

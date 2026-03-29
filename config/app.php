@@ -1,10 +1,43 @@
 <?php
-date_default_timezone_set("Asia/Seoul");
+/*
+|------------------------------------------------------------------
+| constants.php
+| 프로젝트 전역 상수 정의 파일
+| index.php 에서 제일 먼저 로드됨
+| define() 으로 정의된 상수는 어디서든 사용 가능
+|------------------------------------------------------------------
+*/
 
-// 기본 URL
-define('BASE_URL', 'http://localhost/BookMarket/');
+// -----------------------------------------------
+// 타임존 설정
+// date() 함수 기준을 한국 시간으로 설정
+// 없으면 UTC (세계표준시) 로 나옴
+// -----------------------------------------------
+date_default_timezone_set('Asia/Seoul');
 
+// -----------------------------------------------
+// 프로토콜 감지 (http / https 자동 판별)
+// $_SERVER = PHP 내장 변수, 서버/요청 정보 담겨있음
+// isset() = 변수가 존재하는지 확인
+// 삼항연산자: 조건 ? 참 : 거짓
+// -----------------------------------------------
+$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on'
+    ? 'https'
+    : 'http';
+
+// -----------------------------------------------
+// BASE_URL
+// $_SERVER['HTTP_HOST'] = 현재 접속한 호스트 자동 감지
+// 로컬   → http://localhost/zenoStock/
+// 실서버 → https://도메인/zenoStock/
+// -----------------------------------------------
+define('BASE_URL', $protocol . '://' . $_SERVER['HTTP_HOST'] . '/zenoStock/');
+
+// -----------------------------------------------
 // 경로 상수
-define('IMG_PATH', 'public/img/');
-define('CSS_PATH', 'public/css/');
-define('JS_PATH',  'public/js/');
+// BASE_URL 에 경로 이어붙이기
+// HTML 에서 src, href 에 사용
+// -----------------------------------------------
+define('IMG_PATH', BASE_URL . 'public/img/');
+define('CSS_PATH', BASE_URL . 'public/css/');
+define('JS_PATH',  BASE_URL . 'public/js/');

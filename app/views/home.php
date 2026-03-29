@@ -1,7 +1,5 @@
 <?php require 'app/views/includes/head.php'; ?>
 <?php require 'app/views/includes/header.php'; ?>
-<?php require 'app/views/data/index_data.php'; ?>
-
 <main>
   <div class="container col-xxl-8 px-4 py-5">
     <!-- START-section1 -->

@@ -11,26 +11,34 @@
     <div class="col mb-3">
       <h5>서비스</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">홈</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">이미지</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">아이콘</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">가격안내</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">홈</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">이미지</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">아이콘</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">가격안내</a></li>
       </ul>
     </div>
     <div class="col mb-3">
       <h5>고객지원</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">공지사항</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQ</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">1:1 문의</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">공지사항</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">FAQ</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">1:1 문의</a></li>
       </ul>
     </div>
     <div class="col mb-3">
       <h5>법적고지</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">이용약관</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">개인정보처리방침</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">저작권정책</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">이용약관</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">개인정보처리방침</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">저작권정책</a></li>
+      </ul>
+    </div>
+    <div class="col mb-3">
+      <h5>??</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">깃허브</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">..</a></li>
+        <li class="nav-item mb-2"><a href="<?= BASE_URL ?>" class="nav-link p-0 text-body-secondary">..</a></li>
       </ul>
     </div>
   </footer>
